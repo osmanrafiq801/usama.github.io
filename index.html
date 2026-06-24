@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Usama Shakil — Performance-Driven Digital Advertiser</title>
+<meta name="description" content="Usama Shakil is a performance-driven digital advertiser running high-ROAS Facebook, Google, and TikTok ad campaigns, funnel-based marketing, and SEO for brands and ecommerce stores." />
+
+<!-- ============================================================
+     LINKEDIN / SOCIAL PREVIEW (Open Graph)
+     After you host this page, update og:url and og:image below
+     to your live link and a 1200x630 preview image.
+============================================================ -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Usama Shakil — Performance-Driven Digital Advertiser" />
+<meta property="og:description" content="High-ROAS paid ads across Meta, Google, and TikTok. $100K+ monthly ad spend managed. Up to 5.6x ROAS." />
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/" />
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/preview.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231F6FE5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+  :root{
+    --canvas:#F4F7FB; --surface:#FFFFFF; --surface-2:#EDF2FA;
+    --ink:#15233B; --ink-2:#54627A; --ink-3:#909BAE;
+    --accent:#1F6FE5; --accent-deep:#134AA8; --accent-soft:#E8F0FE;
+    --teal:#0E9CAB; --teal-soft:#DCF3F5;
+    --coral:#D8633A; --coral-soft:#FBEAE2;
+    --violet:#5A4FC4; --violet-soft:#ECEAFB;
+    --green:#16A34A; --green-soft:#E6F6EC;
+    --line:#E4EAF2; --radius:16px; --radius-sm:10px; --maxw:1080px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--canvas); color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif; font-size:16px; line-height:1.7;
+    -webkit-font-smoothing:antialiased; font-feature-settings:"cv02","cv11";
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  section{scroll-margin-top:84px;}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif; font-weight:500; line-height:1.12; color:var(--ink); letter-spacing:-0.01em; margin:0;}
+  a{color:inherit; text-decoration:none;}
+  .mono{font-family:"IBM Plex Mono",monospace; letter-spacing:0.04em;}
+  .num{font-variant-numeric:tabular-nums; letter-spacing:-0.02em;}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:0.74rem; letter-spacing:0.12em; color:var(--accent); text-transform:uppercase;}
+
+  /* nav */
+  header.nav{position:sticky; top:0; z-index:50; background:rgba(244,247,251,0.82); backdrop-filter:blur(10px); border-bottom:1px solid var(--line);}
+  .nav-in{display:flex; align-items:center; justify-content:space-between; height:64px;}
+  .brand{font-family:"Fraunces",serif; font-weight:600; font-size:1.15rem; letter-spacing:-0.01em;}
+  .nav-links{display:flex; align-items:center; gap:30px;}
+  .nav-links a{font-size:0.92rem; color:var(--ink-2); transition:color .15s;}
+  .nav-links a:hover{color:var(--ink);}
+  .btn{display:inline-flex; align-items:center; gap:8px; font-size:0.92rem; font-weight:500; padding:10px 18px; border-radius:999px; transition:transform .12s, background .15s, box-shadow .15s; cursor:pointer; border:1px solid transparent;}
+  .btn-primary{background:var(--accent); color:#fff; box-shadow:0 6px 18px -8px rgba(31,111,229,0.7);}
+  .btn-primary:hover{background:var(--accent-deep); transform:translateY(-1px);}
+  .btn-ghost{background:transparent; color:var(--ink); border-color:var(--line);}
+  .btn-ghost:hover{background:var(--surface); border-color:#cdd7e6;}
+
+  /* hero */
+  .hero{padding:72px 0 30px;}
+  .hero-grid{display:grid; grid-template-columns:1.15fr 0.85fr; gap:48px; align-items:center;}
+  .hero h1{font-size:clamp(2.3rem,4.6vw,3.5rem); margin:18px 0 18px;}
+  .hero p.lead{font-size:1.12rem; color:var(--ink-2); max-width:33ch; margin:0 0 22px;}
+  .meta-line{display:flex; align-items:center; gap:8px; color:var(--ink-3); font-size:0.9rem; margin-bottom:26px;}
+  .meta-dot{width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 0 4px var(--green-soft);}
+  .hero-ctas{display:flex; gap:12px; flex-wrap:wrap;}
+
+  /* hero panel + chart */
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px; box-shadow:0 24px 60px -32px rgba(21,35,59,0.28);}
+  .panel-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;}
+  .panel-head .label{font-size:0.82rem; color:var(--ink-2);}
+  .panel .big{font-size:1.9rem; font-weight:600; font-family:"Inter"; letter-spacing:-0.03em;}
+  .delta{display:inline-flex; align-items:center; gap:4px; font-size:0.8rem; color:var(--green); background:var(--green-soft); padding:3px 9px; border-radius:999px; font-weight:500;}
+  .chartbox{position:relative; margin-top:8px;}
+  .chartbox svg{display:block; width:100%; height:auto;}
+  .avatar-row{display:flex; align-items:center; gap:14px; margin-top:18px; padding-top:18px; border-top:1px solid var(--line);}
+  .avatar{width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg,var(--accent),var(--teal)); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:600; font-family:"Inter"; font-size:1rem; flex:none;}
+  .avatar-row .nm{font-weight:500; font-size:0.95rem;}
+  .avatar-row .rl{font-size:0.82rem; color:var(--ink-2);}
+
+  /* trusted strip */
+  .trusted{padding:18px 0 6px;}
+  .trusted .cap{font-size:0.8rem; color:var(--ink-3); text-align:center; margin-bottom:16px;}
+  .logos{display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:14px 34px;}
+  .logo-item{display:inline-flex; align-items:center; gap:9px; color:var(--ink-2); font-size:0.95rem; font-weight:500; opacity:0.72; filter:grayscale(1); transition:opacity .2s, filter .2s;}
+  .logo-item:hover{opacity:1; filter:grayscale(0);}
+  .logo-item img{width:22px; height:22px; border-radius:5px;}
+
+  /* generic section */
+  .sec{padding:64px 0;}
+  .sec-head{margin-bottom:34px; max-width:60ch;}
+  .sec-head h2{font-size:clamp(1.7rem,3vw,2.2rem); margin:10px 0 0;}
+
+  /* stat band */
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
+  .stat{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px 22px;}
+  .stat .v{font-size:clamp(1.6rem,2.6vw,2.1rem); font-weight:600; font-family:"Inter"; letter-spacing:-0.03em; color:var(--ink);}
+  .stat .k{font-size:0.86rem; color:var(--ink-2); margin-top:6px;}
+
+  /* featured case study */
+  .feature{background:var(--surface); border:1px solid var(--line); border-radius:calc(var(--radius) + 4px); padding:30px; box-shadow:0 30px 70px -44px rgba(21,35,59,0.30); position:relative; overflow:hidden;}
+  .feature::before{content:""; position:absolute; left:0; top:0; bottom:0; width:5px; background:var(--accent);}
+  .feature-top{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px;}
+  .tag{font-family:"IBM Plex Mono",monospace; font-size:0.72rem; letter-spacing:0.06em; padding:5px 11px; border-radius:8px; background:var(--accent-soft); color:var(--accent-deep); text-transform:uppercase;}
+  .feature h3{font-size:1.5rem; margin:6px 0 8px;}
+  .feature .sub{color:var(--ink-2); max-width:60ch; margin:0 0 22px;}
+  .metric-grid{display:grid; grid-template-columns:repeat(6,1fr); gap:14px;}
+  .metric{background:var(--surface-2); border-radius:var(--radius-sm); padding:16px 12px; text-align:center;}
+  .metric .v{font-size:1.45rem; font-weight:600; font-family:"Inter"; letter-spacing:-0.02em;}
+  .metric .k{font-size:0.74rem; color:var(--ink-2); margin-top:5px; font-family:"IBM Plex Mono",monospace; letter-spacing:0.02em;}
+
+  /* client cards */
+  .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:22px; transition:transform .15s, box-shadow .15s, border-color .15s;}
+  .card:hover{transform:translateY(-3px); box-shadow:0 22px 50px -34px rgba(21,35,59,0.34); border-color:#d6e0ee;}
+  .card-head{display:flex; align-items:center; gap:11px; margin-bottom:4px;}
+  .card-logo{width:34px; height:34px; border-radius:9px; background:var(--surface-2); display:flex; align-items:center; justify-content:center; flex:none; overflow:hidden;}
+  .card-logo img{width:22px; height:22px; border-radius:5px;}
+  .card-logo span{font-weight:600; color:var(--accent); font-size:0.85rem;}
+  .card h3{font-size:1.08rem; font-family:"Inter"; font-weight:600; letter-spacing:-0.01em;}
+  .pill{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:0.68rem; letter-spacing:0.04em; padding:4px 9px; border-radius:7px; margin:10px 0 14px; text-transform:uppercase;}
+  .p-blue{background:var(--accent-soft); color:var(--accent-deep);}
+  .p-teal{background:var(--teal-soft); color:#0a6f7a;}
+  .p-coral{background:var(--coral-soft); color:#9c4022;}
+  .p-violet{background:var(--violet-soft); color:#3b329a;}
+  .mrow{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px;}
+  .mchip{flex:1; min-width:62px; background:var(--surface-2); border-radius:8px; padding:9px 4px; text-align:center;}
+  .mchip .v{font-size:1.05rem; font-weight:600; font-family:"Inter"; letter-spacing:-0.02em;}
+  .mchip .k{font-size:0.66rem; color:var(--ink-2); margin-top:3px; font-family:"IBM Plex Mono",monospace;}
+  .spend{font-size:0.84rem; color:var(--ink-2); margin:0 0 12px;}
+  .visit{font-size:0.85rem; color:var(--accent); font-weight:500; display:inline-flex; align-items:center; gap:5px;}
+  .visit:hover{color:var(--accent-deep);}
+
+  /* services */
+  .grid-4{display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
+  .svc{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:24px 22px;}
+  .svc .ic{width:42px; height:42px; border-radius:11px; display:flex; align-items:center; justify-content:center; margin-bottom:14px; font-size:1.2rem;}
+  .svc h3{font-size:1.02rem; font-family:"Inter"; font-weight:600; margin-bottom:6px;}
+  .svc p{font-size:0.9rem; color:var(--ink-2); margin:0; line-height:1.6;}
+
+  /* tools */
+  .tools{display:flex; flex-wrap:wrap; gap:10px;}
+  .tool{font-size:0.88rem; color:var(--ink-2); background:var(--surface); border:1px solid var(--line); padding:9px 16px; border-radius:999px;}
+
+  /* about + side */
+  .about-grid{display:grid; grid-template-columns:1.3fr 0.7fr; gap:22px; align-items:start;}
+  .about-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:30px;}
+  .about-card p{color:var(--ink-2); margin:0 0 14px;}
+  .about-card p:last-child{margin-bottom:0;}
+  .side-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:24px;}
+  .side-card + .side-card{margin-top:18px;}
+  .side-card .lab{font-family:"IBM Plex Mono",monospace; font-size:0.72rem; letter-spacing:0.06em; color:var(--ink-3); text-transform:uppercase; margin-bottom:12px;}
+  .cert{margin-bottom:14px;}
+  .cert:last-child{margin-bottom:0;}
+  .cert .t{font-weight:500; font-size:0.95rem;}
+  .cert .s{font-size:0.82rem; color:var(--ink-3);}
+
+  /* contact */
+  .contact{background:var(--ink); color:#fff; border-radius:calc(var(--radius) + 6px); padding:54px 30px; text-align:center;}
+  .contact h2{color:#fff; font-size:clamp(1.8rem,3.4vw,2.5rem); margin-bottom:12px;}
+  .contact p{color:#aeb9cc; max-width:46ch; margin:0 auto 26px;}
+  .mail-btn{background:var(--accent); color:#fff; font-weight:500; padding:13px 26px; border-radius:999px; display:inline-flex; align-items:center; gap:9px; transition:transform .12s, background .15s;}
+  .mail-btn:hover{background:var(--accent-deep); transform:translateY(-1px);}
+  .socials{display:flex; justify-content:center; gap:14px; margin-top:24px;}
+  .socials a{width:42px; height:42px; border-radius:50%; border:1px solid rgba(255,255,255,0.18); display:flex; align-items:center; justify-content:center; color:#c9d3e3; transition:background .15s, color .15s; font-size:1.1rem;}
+  .socials a:hover{background:rgba(255,255,255,0.1); color:#fff;}
+
+  footer{text-align:center; padding:34px 0 50px; color:var(--ink-3); font-size:0.85rem;}
+
+  /* reveal */
+  .reveal{opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1; transform:none;}
+
+  /* responsive */
+  @media (max-width:860px){
+    .hero-grid{grid-template-columns:1fr; gap:34px;}
+    .hero p.lead{max-width:none;}
+    .stats{grid-template-columns:repeat(2,1fr);}
+    .metric-grid{grid-template-columns:repeat(3,1fr);}
+    .grid-3{grid-template-columns:1fr 1fr;}
+    .grid-4{grid-template-columns:1fr 1fr;}
+    .about-grid{grid-template-columns:1fr;}
+    .nav-links{display:none;}
+  }
+  @media (max-width:540px){
+    .wrap{padding:0 18px;}
+    .stats{grid-template-columns:1fr 1fr;}
+    .metric-grid{grid-template-columns:repeat(2,1fr);}
+    .grid-3{grid-template-columns:1fr;}
+    .grid-4{grid-template-columns:1fr;}
+    .hero{padding:48px 0 20px;}
+    .sec{padding:48px 0;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto;}
+    .reveal{opacity:1; transform:none; transition:none;}
+    .draw{stroke-dasharray:none !important; stroke-dashoffset:0 !important;}
+  }
+  :focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:4px;}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">Usama Shakil</a>
+    <nav class="nav-links">
+      <a href="#results">Results</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" href="#contact">Let's talk</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Performance marketing · paid ads · seo</span>
+        <h1>I turn ad budgets into measurable, high-ROAS growth.</h1>
+        <p class="lead">Facebook, Google, and TikTok ads, funnel-based marketing, and SEO for brands and ecommerce stores ready to scale — with clean tracking so every dollar is accounted for.</p>
+        <div class="meta-line"><span class="meta-dot"></span> Pakistan · Remote · Available for new clients</div>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#results">See the results</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="panel reveal">
+        <div class="panel-head">
+          <span class="label">Followers managed · Stable Pro</span>
+          <span class="delta">▲ +633%</span>
+        </div>
+        <div class="big num">22.2K</div>
+        <div class="chartbox">
+          <svg viewBox="0 0 320 130" preserveAspectRatio="none" role="img" aria-label="Follower growth from 3,000 to over 22,000">
+            <path d="M6,118 L46,112 L86,108 L126,96 L166,86 L206,66 L246,46 L300,16 L300,130 L6,130 Z" fill="var(--accent-soft)"/>
+            <path class="draw" d="M6,118 L46,112 L86,108 L126,96 L166,86 L206,66 L246,46 L300,16" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="300" cy="16" r="4.5" fill="var(--accent)"/>
+            <circle cx="6" cy="118" r="3.5" fill="#fff" stroke="var(--accent)" stroke-width="2"/>
+          </svg>
+        </div>
+        <div style="display:flex; justify-content:space-between; font-size:0.74rem; color:var(--ink-3); font-family:'IBM Plex Mono',monospace; margin-top:2px;"><span>3K · start</span><span>22.2K · now</span></div>
+        <!-- To add your photo: replace the .avatar div below with <img src="me.jpg" class="avatar" alt="Usama Shakil"> -->
+        <div class="avatar-row">
+          <div class="avatar">US</div>
+          <div>
+            <div class="nm">Usama Shakil</div>
+            <div class="rl">Digital advertiser · Marketing manager</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED -->
+  <section class="trusted">
+    <div class="wrap">
+      <p class="cap">Trusted by brands and stores I've scaled</p>
+      <div class="logos reveal">
+        <span class="logo-item"><img src="https://www.google.com/s2/favicons?domain=eomega.org&sz=64" alt="" loading="lazy" onerror="this.style.display='none'">Omega Institute</span>
+        <span class="logo-item"><img src="https://www.google.com/s2/favicons?domain=karve.club&sz=64" alt="" loading="lazy" onerror="this.style.display='none'">Karve</span>
+        <span class="logo-item"><img src="https://www.google.com/s2/favicons?domain=quickjewelryrepairs.com&sz=64" alt="" loading="lazy" onerror="this.style.display='none'">Quick Jewelry Repairs</span>
+        <span class="logo-item"><img src="https://www.google.com/s2/favicons?domain=itsokay.gg&sz=64" alt="" loading="lazy" onerror="this.style.display='none'">It's Okay</span>
+        <span class="logo-item"><img src="https://www.google.com/s2/favicons?domain=pur.golf&sz=64" alt="" loading="lazy" onerror="this.style.display='none'">Pur Golf</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="sec" style="padding-top:34px;">
+    <div class="wrap">
+      <div class="stats reveal">
+        <div class="stat"><div class="v num">$100K+</div><div class="k">Monthly ad spend managed</div></div>
+        <div class="stat"><div class="v num">5.6x</div><div class="k">Peak return on ad spend</div></div>
+        <div class="stat"><div class="v num">3.3M</div><div class="k">Social views generated</div></div>
+        <div class="stat"><div class="v num">3K → 22K</div><div class="k">Followers grown</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CASE STUDY -->
+  <section class="sec" id="results" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Featured case study</span>
+        <h2>Stable Pro — built from 3K to 22K followers</h2>
+      </div>
+      <div class="feature reveal">
+        <div class="feature-top">
+          <span class="tag">Social media management</span>
+          <span class="mono" style="font-size:0.76rem; color:var(--ink-3);">Jan 2025 – Jun 2026</span>
+        </div>
+        <h3>Organic growth across Instagram &amp; Facebook</h3>
+        <p class="sub">A consistent content and engagement strategy that grew the audience from 3K to 22K+ and pushed millions of views — turning a quiet account into a real distribution channel.</p>
+        <div class="metric-grid">
+          <div class="metric"><div class="v num">3.3M</div><div class="k">Views</div></div>
+          <div class="metric"><div class="v num">152.6K</div><div class="k">Reach</div></div>
+          <div class="metric"><div class="v num">22.2K</div><div class="k">Followers</div></div>
+          <div class="metric"><div class="v num">109.5K</div><div class="k">Interactions</div></div>
+          <div class="metric"><div class="v num">104.3K</div><div class="k">Profile visits</div></div>
+          <div class="metric"><div class="v num">5.4K</div><div class="k">Link clicks</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENT RESULTS -->
+  <section class="sec" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Client results</span>
+        <h2>Real campaigns, real numbers</h2>
+      </div>
+      <div class="grid-3 reveal">
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><img src="https://www.google.com/s2/favicons?domain=eomega.org&sz=64" alt="" onerror="this.parentNode.innerHTML='<span>O</span>'"></span>
+            <h3>Omega Institute</h3>
+          </div>
+          <span class="pill p-teal">Wellness · Meta ads</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">5.6x</div><div class="k">ROAS</div></div>
+            <div class="mchip"><div class="v num">2.5%</div><div class="k">CTR</div></div>
+            <div class="mchip"><div class="v num">$71</div><div class="k">CPR</div></div>
+          </div>
+          <p class="spend">$20K monthly spend</p>
+          <a class="visit" href="https://www.eomega.org/" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><img src="https://www.google.com/s2/favicons?domain=quickjewelryrepairs.com&sz=64" alt="" onerror="this.parentNode.innerHTML='<span>Q</span>'"></span>
+            <h3>Quick Jewelry Repairs</h3>
+          </div>
+          <span class="pill p-blue">Ecommerce · Meta ads</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">2.3x</div><div class="k">ROAS</div></div>
+            <div class="mchip"><div class="v num">1.9%</div><div class="k">CTR</div></div>
+            <div class="mchip"><div class="v num">$53</div><div class="k">CPR</div></div>
+          </div>
+          <p class="spend">$5K monthly spend</p>
+          <a class="visit" href="https://quickjewelryrepairs.com/" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><img src="https://www.google.com/s2/favicons?domain=pur.golf&sz=64" alt="" onerror="this.parentNode.innerHTML='<span>P</span>'"></span>
+            <h3>Pur Golf</h3>
+          </div>
+          <span class="pill p-teal">Golf ecommerce</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">2.8x</div><div class="k">ROAS</div></div>
+            <div class="mchip"><div class="v num">$89</div><div class="k">CPR</div></div>
+          </div>
+          <p class="spend">$10K monthly spend</p>
+          <a class="visit" href="https://pur.golf/" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><img src="https://www.google.com/s2/favicons?domain=itsokay.gg&sz=64" alt="" onerror="this.parentNode.innerHTML='<span>I</span>'"></span>
+            <h3>It's Okay</h3>
+          </div>
+          <span class="pill p-coral">Ecommerce</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">1.9x</div><div class="k">ROAS</div></div>
+            <div class="mchip"><div class="v num">$105</div><div class="k">CPR</div></div>
+          </div>
+          <p class="spend">$3K monthly spend</p>
+          <a class="visit" href="https://itsokay.gg/" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><img src="https://www.google.com/s2/favicons?domain=karve.club&sz=64" alt="" onerror="this.parentNode.innerHTML='<span>K</span>'"></span>
+            <h3>Karve</h3>
+          </div>
+          <span class="pill p-violet">Pilates · Lead gen</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">$10</div><div class="k">CPL</div></div>
+          </div>
+          <p class="spend">$8K monthly spend</p>
+          <a class="visit" href="https://karve.club/" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="card-logo"><span>B</span></span>
+            <h3>Brokerage client</h3>
+          </div>
+          <span class="pill p-blue">Finance · Lead gen</span>
+          <div class="mrow">
+            <div class="mchip"><div class="v num">$20–25</div><div class="k">CPL</div></div>
+          </div>
+          <p class="spend">$50–55K monthly spend · + many more</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec" id="services" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">What I do</span>
+        <h2>Built to make every dollar work harder</h2>
+      </div>
+      <div class="grid-4 reveal">
+        <div class="svc">
+          <div class="ic" style="background:var(--accent-soft); color:var(--accent-deep);">◎</div>
+          <h3>Paid social</h3>
+          <p>Facebook, Instagram, and TikTok ad campaigns built to convert.</p>
+        </div>
+        <div class="svc">
+          <div class="ic" style="background:var(--teal-soft); color:#0a6f7a;">⌕</div>
+          <h3>Google Ads &amp; PPC</h3>
+          <p>Search and shopping campaigns that bring in qualified buyers.</p>
+        </div>
+        <div class="svc">
+          <div class="ic" style="background:var(--violet-soft); color:#3b329a;">⊻</div>
+          <h3>Funnel marketing</h3>
+          <p>Full-funnel strategy from first touch to repeat purchase.</p>
+        </div>
+        <div class="svc">
+          <div class="ic" style="background:var(--coral-soft); color:#9c4022;">▤</div>
+          <h3>SEO &amp; tracking</h3>
+          <p>Blog SEO, Google Tag Manager, and Meta Pixel set up clean.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:30px;" class="reveal">
+        <div class="tools">
+          <span class="tool">Meta Ads</span>
+          <span class="tool">Google Ads</span>
+          <span class="tool">TikTok Ads</span>
+          <span class="tool">Google Tag Manager</span>
+          <span class="tool">Meta Pixel</span>
+          <span class="tool">Google Analytics</span>
+          <span class="tool">SEO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="sec" id="about" style="padding-top:0;">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">About</span>
+        <h2>A media buyer who lives in the numbers</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-card">
+          <p>I'm a performance-driven digital advertiser focused on marketing strategies that deliver real, measurable results. My work spans Facebook, Google, and TikTok ads, blog SEO, and clean tracking with Google Tag Manager and Meta Pixel.</p>
+          <p>Across wellness, ecommerce, and finance clients, I've managed monthly budgets from $3K to $55K, hit up to 5.6x ROAS on Meta, and grown a social account from 3K to 22K+ followers. I care about funnels that hold up — from the first impression to the repeat purchase.</p>
+          <p>Currently a marketing manager at Intelli-Rational Solutions. COMSATS University Islamabad.</p>
+        </div>
+        <div>
+          <div class="side-card">
+            <div class="lab">Newsletter</div>
+            <div class="cert"><div class="t">Ads Weekly</div><div class="s">Weekly tips on paid ads &amp; growth · 94 subscribers</div></div>
+          </div>
+          <div class="side-card">
+            <div class="lab">Certifications</div>
+            <div class="cert"><div class="t">Google Ads certification</div><div class="s">Udemy</div></div>
+            <div class="cert"><div class="t">Facebook Ads &amp; marketing mastery</div><div class="s">Udemy · Certified Marketing Specialist</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="sec" id="contact" style="padding-top:0;">
+    <div class="wrap">
+      <div class="contact reveal">
+        <h2>Let's scale your ads</h2>
+        <p>Taking on a few new brands and stores this quarter. Tell me what you're running and where you want it to go.</p>
+        <a class="mail-btn" href="mailto:usamashakilkl@gmail.com">✉ usamashakilkl@gmail.com</a>
+        <div class="socials">
+          <a href="https://instagram.com/_u_sama" target="_blank" rel="noopener" aria-label="Instagram">◉</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="mailto:usamashakilkl@gmail.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © <span id="yr"></span> Usama Shakil · Performance-driven digital advertiser
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+  }, {threshold:0.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  const line = document.querySelector('.draw');
+  if(line && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const len = line.getTotalLength();
+    line.style.strokeDasharray = len;
+    line.style.strokeDashoffset = len;
+    line.getBoundingClientRect();
+    line.style.transition = 'stroke-dashoffset 1.6s ease .3s';
+    requestAnimationFrame(()=>{ line.style.strokeDashoffset = 0; });
+  }
+</script>
+</body>
+</html>
